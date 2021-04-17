@@ -14,4 +14,4 @@ plot(sine_response.Time, sine_response.Data + eq); grid on;
 title("Forward Mode Latitude Controller Response to Sine Input");
 xlabel("Time (s)");
 ylabel("Speed (m/s)");
-legend("Step Input", "Control Response", "location", "southwest");
+legend("Sine Input", "Control Response", "location", "southwest");
