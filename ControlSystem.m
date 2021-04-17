@@ -117,4 +117,5 @@ xlabel("Time (s)")
 ylabel("Forward Velocity (m/s)")
 grid on
 
-
+figure(4)
+rlocus(Lat2);
